@@ -13,28 +13,40 @@
 - **E** - Enemies
 - **S** - Siblings
 
----
 
-## 🧠 How the Program Works (Step-by-Step)
 
-The logic in `main.py` follows these steps:
+## 🧠 Step-by-Step How the Code Works
 
-1. **Input**:  
-   Prompts the user to enter two names.
+The script in `main.py` follows these key steps:
 
-2. **Preprocessing**:
-   - Removes spaces and converts both names to lowercase for consistency.
+### 1. 📥 Input Collection
+- The program prompts the user to enter two names.
 
-3. **Letter Cancellation**:
-   - Counts and cancels out common letters between the two names.
-   - The remaining number of characters is used to determine the relationship.
+### 2. ✨ Preprocessing
+- Converts both names to lowercase.
+- Removes all whitespace to ensure fair character comparison.
 
-4. **FLAMES Logic**:
-   - Iteratively removes letters from the word "FLAMES" using the count of unmatched letters.
-   - The process continues until only one letter remains.
+### 3. 🔠 Unique Letter Count
+- Compares both names.
+- Cancels out matching letters from both.
+- Counts the number of non-common characters.
 
-5. **Result**:
-   - The final letter corresponds to a relationship type, which is then displayed to the user.
+### 4. 🔁 FLAMES Elimination Process
+- Creates a list from the string `"FLAMES"`.
+- Uses the count from the previous step to eliminate letters cyclically.
+- Repeats until one letter remains.
+
+### 5. 🧩 Match Result
+- The last remaining letter is mapped to a relationship:
+  - **F** = Friends
+  - **L** = Love
+  - **A** = Affection
+  - **M** = Marriage
+  - **E** = Enemies
+  - **S** = Siblings
+
+### 6. 🎉 Display Result
+- Outputs the relationship result based on the FLAMES logic.
 
 ---
 
@@ -45,6 +57,12 @@ The logic in `main.py` follows these steps:
 - Python 3.x installed on your system.
 
 ### 📥 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/psyccho00/FLAMES.git
+cd FLAMES
 
 Clone the repository:
 

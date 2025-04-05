@@ -64,9 +64,3 @@ Clone the repository:
 git clone https://github.com/psyccho00/FLAMES.git
 cd FLAMES
 ```
-Clone the repository:
-
-```bash
-git clone https://github.com/psyccho00/FLAMES.git
-cd FLAMES
-```

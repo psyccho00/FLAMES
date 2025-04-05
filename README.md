@@ -64,3 +64,7 @@ Clone the repository:
 git clone https://github.com/psyccho00/FLAMES.git
 cd FLAMES
 ```
+
+## 👨‍💻 Author
+
+Developed by [psyccho00](https://github.com/psyccho00)

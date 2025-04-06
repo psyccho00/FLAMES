@@ -2,7 +2,7 @@
 
 **FLAMES** is a classic compatibility game that determines the relationship between two people based on their names. Whether you're curious about love, friendship, or rivalry, this game is a fun way to find out!
 
-![](https://github.com/psyccho00/FLAMES/blob/main/flames.png)
+![](https://github.com/psyccho00/FLAMES/blob/main/FLAMES_Banner_1280x300.png)
 ---
 
 ## 📜 What Does FLAMES Stand For?
